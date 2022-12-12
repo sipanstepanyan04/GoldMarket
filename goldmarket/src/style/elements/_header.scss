@@ -6,9 +6,7 @@
   width: 100%;
   height: 70px;
   padding: 28px 40px 28px 40px;
-  border-bottom: 1px solid #1D3865;
-
-
+  box-shadow: 10px 10px 10px #F6F6F6;
 }
 
 .top_left_content {
@@ -17,15 +15,19 @@
 }
 
 .flag_content {
+  position: relative;
 }
 
 .flags {
   font-size: 14px;
+  position: absolute;
+  top: 100%;
+}
 
-  li {
-    align-items: center;
-    margin: 0 7px 0 0;
-  }
+.flag {
+  display: flex;
+  align-items: center;
+  margin: 0 7px 0 0;
 
   .flag_icon {
     width: 20px;
@@ -45,8 +47,6 @@
 
 
 //valuta content
-
-
 .valuta_content {
   font-size: 14px;
 
@@ -64,7 +64,6 @@
     width: 20px;
     height: 20px;
   }
-
 
 }
 
@@ -84,7 +83,6 @@
     gap: 34px;
   }
 }
-
 
 .top_right_content {
   width: 342px;

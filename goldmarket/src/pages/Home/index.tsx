@@ -18,21 +18,21 @@ import SellWithUs from '../../components/Information/SellWithUs';
 const Home = () => {
     return (
         <Layout
-            HeaderComponent={<Header/>}
-            NavBarComponent={<Navbar/>}
-            FooterComponent={<Footer/>}
+            HeaderComponent={<Header />}
+            NavBarComponent={<Navbar />}
+            FooterComponent={<Footer />}
         >
             <>
                 <PriceList />
-                {/*<ReactVideoPlayer />*/}
-                <SwitchComponent />
-                <Collections />
-                <SellWithUs />
+                {/* <ReactVideoPlayer /> */}
+                {/* <SwitchComponent /> */}
+                {/* <Collections /> */}
+                {/* <SellWithUs />
                 <BestSales />
                 <RecommendedSellers />
                 <MostViewed />
                 <WhyGoldCenter />
-                <AboutUs />
+                <AboutUs /> */}
             </>
         </Layout>
     );
