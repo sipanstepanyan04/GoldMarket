@@ -1,11 +1,14 @@
+.products_manu-content {
+  position: relative;
+}
+
 .products_manu {
-  width: 100%;
-  padding: 28px 40px 28px 40px;
   font-size: 14px;
+  height: 60px;
 }
 
 .navbar {
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
 
   .navbar_ul {
     gap: 24px;
@@ -32,7 +35,6 @@
 }
 
 .switch {
-
   width: 70px;
 //   .button-contener {
 //     display: flex;
@@ -132,15 +134,21 @@
   }
 
 .openning-navbar {
-  // margin-top: 100px;
+
+  padding-top: 30px;
+
+  border-top: 1px solid #1D3865;
+  position: absolute;
+  top: 50px;
+  // width: 100%;
+  background-color: #FFFFFF;
 
   ul {
     width: 184px;
     margin-right: 54px;
   }
 
-  width: 100%;
-  padding: 0 120px;
+  // width: 100%;
 
   .presentImg {
     width: 488px!important;

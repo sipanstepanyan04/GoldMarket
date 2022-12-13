@@ -20,7 +20,7 @@ function SearchCategory({ title }: SearchCategoryProps) {
             {
                 mouse
                     ?
-                    <div className={"openning-navbar flex"}>
+                    <div className='openning-navbar'>
 
                         {/*silver-jewelry*/}
                         <div className={"gold-jewelry flex justify-between"}>
@@ -57,9 +57,12 @@ function SearchCategory({ title }: SearchCategoryProps) {
                                 <li><a href="#">Bracelets</a></li>
                                 <li><a href="#">Other</a></li>
                             </ul>
+
+                            <img className='presentImg' src={presentImg} alt='' />
+
                         </div>
 
-                        <img className='presentImg' src={presentImg} alt='' />
+
                     </div>
                     :
                     <span>{title}</span>

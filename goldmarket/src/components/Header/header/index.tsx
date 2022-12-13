@@ -72,9 +72,9 @@ const Header = () => {
 
     return (
         // containrt
-        <div className={"container flex"}>
+        <div className={"container-top"}>
             {/*header*/}
-            <header className={"header flex justify-between align-center"}>
+            <header className={" header flex justify-between align-center"}>
                 {/*top_left_content*/}
                 <div className={"top_left_content flex justify-between align-center"}>
                     {/*flag_content*/}
@@ -94,7 +94,6 @@ const Header = () => {
                                 )
                             })}
                         </ul>}
-
 
                         {
 
@@ -144,11 +143,10 @@ const Header = () => {
                         }
                     </div>
                 </div>
+
                 {/*site_logo*/}
-                <div className={"site_logo"}>
-                    <h2>
-                        <img src={logo} alt={"site_logo"} className={"logo"} />
-                    </h2>
+                <div>
+                    <img className={"site_logo"} src={logo} alt={"site_logo"} />
                 </div>
 
                 {/*wishlist*/}
